@@ -1,0 +1,14 @@
+red = rectangle(220, 160, "solid", "red")
+white_h = rectangle(40, 220, "solid", "white")
+white_v = rectangle(220, 40, "solid", "white")
+blue_h = rectangle(220, 20, "solid", "medium-blue")
+blue_v = rectangle(20, 220, "solid", "medium-blue")
+bakgrunn = empty-scene(220, 160)
+
+
+put-image(blue_v, 80, 80,
+put-image(blue_h, 110, 80,
+put-image(white_h, 80, 80,
+put-image(white_v, 110, 80,
+put-image(red, 110, 80,
+bakgrunn)))))
